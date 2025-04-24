@@ -16,6 +16,8 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression --message="Building app..." --weight=2
 
+ynh_go_install
+
 pushd $install_dir
 	hugo new site $site_name
 popd
