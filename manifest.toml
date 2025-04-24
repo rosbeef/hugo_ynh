@@ -1,4 +1,4 @@
-packaging_format = 2
+packaging_format = 2.1
 
 id = "hugo"
 name = "Hugo"
