@@ -17,7 +17,7 @@ source /usr/share/yunohost/helpers
 ynh_script_progression --message="Building app..." --weight=2
 
 pushd $install_dir
-	hugo new site $name
+	hugo new site $site_name
 popd
 
 chmod 750 "$install_dir"
