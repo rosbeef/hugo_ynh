@@ -18,13 +18,13 @@ ynh_script_progression --message="Building app..." --weight=2
 
 ynh_go_install
 
-pushd $install_dir
-	hugo new site $site_name
-popd
+#pushd $install_dir
+#	hugo new site $site_name
+#popd
 
-chmod 750 "$install_dir"
-chmod -R o-rwx "$install_dir"
-chown -R $app:$app "$install_dir"
+#chmod 750 "$install_dir"
+#chmod -R o-rwx "$install_dir"
+#chown -R $app:$app "$install_dir"
 
 #=================================================
 # SYSTEM CONFIGURATION
